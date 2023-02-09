@@ -1,0 +1,19 @@
+*.log
+*.tsbuildinfo
+.DS_Store
+.webpack/
+ci/apt/packages
+dist/
+node_modules/
+storybook-screenshots/
+storybook-static/
+
+# Yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+.pnp.*
+
+# Extensions
+*.foxe
